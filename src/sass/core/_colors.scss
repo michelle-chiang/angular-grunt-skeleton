@@ -1,0 +1,48 @@
+// *************************************
+//
+//   Color Palette
+//
+//   The rules are:
+//
+// *************************************
+
+// solid colors
+
+$color--black: #000;
+$color--light-grey: #ebebeb;  
+$color--white: #fff;
+
+$color--orange: #ed2e0d;
+$color--blue: #0093e7;
+$color--red: #d7001e;
+$color--dark-red: #938130;
+$color--yellow: #ffde00;
+$color--green: #43cb00;
+$color--teal: #00f19f;
+$color--gold: #c2b775;
+$color--light-gold: #ddc347;
+$color--notes-yellow: #fff7bf;
+
+$color--light-blue: #f2f9fe;
+$color--medium-blue: #597483;
+$color--dark-blue-1: #1a2227;
+$color--dark-blue-2: #101a20;
+$color--dark-blue-3: #27333a;
+
+// outline colors
+
+$color--light-grey-outline: mix($color--black, $color--light-grey, 15%);
+
+$color--orange-outline: #b52309;
+$color--blue-outline: #006ba8;
+$color--red-outline: #a20017;
+$color--yellow-outline: #d4b900;
+$color--green-outline: #349e00;
+$color--teal-outline: #00c481;
+$color--gold-outline: #908856;
+
+$color--light-blue-outline: mix($color--blue, $color--light-blue, 15%);
+$color--medium-blue-outline: #435863;
+$color--dark-blue-1-outline: #000;
+$color--dark-blue-2-outline: #000;
+$color--dark-blue-3-outline: #000;

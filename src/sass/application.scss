@@ -1,0 +1,14 @@
+// Entry point for the application SASS
+// If a sass file is not included here, it will not be put into the document
+
+
+// core
+@import "core/colors";
+
+// layouts
+@import "layouts/main";
+
+
+body {
+  margin: 0;
+}

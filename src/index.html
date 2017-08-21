@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html ng-app="whoop" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <% styles.forEach(function (file) { %>
+      <link rel="stylesheet" type="text/css" href="/<%= file %>" /><% }); %>
+    <title>Skeleton</title>
+  </head>
+
+  <body>
+    <div class="outer-wrapper">
+      <ui-view class="main-window-wrapper"></ui-view>
+    </div>
+    <% scripts.forEach(function (file) { %>
+      <script type="text/javascript" src="/<%= file %>"></script><% }); %>
+  </body>
+</html>
