@@ -1,6 +1,6 @@
 # Skeleton
 
-Basic framework for an Angular, Grunt, and Bower web application.
+Basic framework for an AngularJS, Grunt, and Bower web application.
 
 # Developer Information
 
